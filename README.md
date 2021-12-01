@@ -30,9 +30,9 @@ Main Class Functionality:
 1. Establish the GPS Connections
 1. Start the timer to count.
 1. While loop functionality:
-   Check which operation mode is selected by the user(0: test, 1:normal, 2:advanced) and with conditionals turn on a board LED (test mode: LED1, normal mode: LED2 and advanced mode: LED3).
-   Query the GPS for synchronizing.
-   Check if the timer has reached the refresh time value.
+2.   Check which operation mode is selected by the user(0: test, 1:normal, 2:advanced) and with conditionals turn on a board LED (test mode: LED1, normal mode: LED2 and advanced mode: LED3).
+2.   Query the GPS for synchronizing.
+2.   Check if the timer has reached the refresh time value.
       In case that happens, the timer is reset and the methods for reading the sensors are called (read_soil_moisture(); read_light();           read_temp_hum(); read_sensorRGB(); read_accel();)
       Also the values that the sensors returned are printed with console output.
       Check if the operation mode is in normal mode
