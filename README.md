@@ -43,7 +43,7 @@ Main Class Functionality:
 1.1.1.1.        In normal mode the frequency for showing the data is 30 seconds each time the data is shown, the counter will add 1 to its current value, so when the counter reaches 120, that will mean that 3600 seconds(1 hour) have passed. After printing all the statistics, we call the method resetArr() to reset all the Min, Max and Sum values of the sensor.
 
 
- Markup : 1. A numbered list
+1. A numbered list
               1. A nested numbered list
               2. Which is numbered
           2. Which is numbered
