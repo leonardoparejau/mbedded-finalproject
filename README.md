@@ -35,16 +35,9 @@ Main Class Functionality:
     3. Check if the timer has reached the refresh time value.
         1. In case that happens, the timer is reset and the methods for reading the sensors are called (read_soil_moisture(); read_light();           read_temp_hum(); read_sensorRGB(); read_accel();)
         2. Also the values that the sensors returned are printed with console output.
-1.1.1.      Check if the operation mode is in normal mode
-1.1.1.1.         In case the system is in normal mode, call the method validateLimits(); to check if any sensor value is out of range and take action on it.
-1.1.1.1.         Increment by 1 a counter variable (for 1 hour statistics future use).
-1.1.1.1.         Call the maxMinSum() method for the temperature, humidity, soil moisture and light sensor current values. And update the arrays of Max, Min, and sum.
-1.1.1.1.         Check if the counter have reach the value of “120”, to show the statistics, the logic for this is the following: 
-1.1.1.1.        In normal mode the frequency for showing the data is 30 seconds each time the data is shown, the counter will add 1 to its current value, so when the counter reaches 120, that will mean that 3600 seconds(1 hour) have passed. After printing all the statistics, we call the method resetArr() to reset all the Min, Max and Sum values of the sensor.
-
-
-1. A numbered list
-    1. A nested numbered list
-    2. Which is numbered
-2. Which is numbered
-
+        3. Check if the operation mode is in normal mode
+            1. In case the system is in normal mode, call the method validateLimits(); to check if any sensor value is out of range and take action on it.
+            1. Increment by 1 a counter variable (for 1 hour statistics future use).
+            1. all the maxMinSum() method for the temperature, humidity, soil moisture and light sensor current values. And update the arrays of Max, Min, and sum.
+            1. Check if the counter have reach the value of “120”, to show the statistics, the logic for this is the following: 
+            1. In normal mode the frequency for showing the data is 30 seconds each time the data is shown, the counter will add 1 to its current value, so when the counter reaches 120, that will mean that 3600 seconds(1 hour) have passed. After printing all the statistics, we call the method resetArr() to reset all the Min, Max and Sum values of the sensor.
