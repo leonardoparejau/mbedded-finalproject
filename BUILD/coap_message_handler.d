@@ -1,0 +1,29 @@
+./build/coap_message_handler.o: \
+  mbed-os\connectivity\nanostack\coap-service\source\coap_message_handler.c \
+  mbed_config.h C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  mbed-os\connectivity\libraries\nanostack-libservice\mbed-client-libservice\nsdynmemLIB.h \
+  mbed-os\connectivity\libraries\nanostack-libservice\mbed-client-libservice\ns_types.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdalign.h \
+  mbed-os\connectivity\libraries\nanostack-libservice\mbed-client-libservice\nsdynmem_tracker.h \
+  mbed-os\connectivity\nanostack\coap-service\source\include\coap_service_api_internal.h \
+  mbed-os\connectivity\nanostack\coap-service\source\include\coap_message_handler.h \
+  mbed-os\connectivity\libraries\mbed-coap\mbed-coap\sn_coap_header.h \
+  mbed-os\connectivity\libraries\mbed-coap\mbed-coap\sn_config.h \
+  mbed-os\connectivity\libraries\nanostack-libservice\mbed-client-libservice\ns_types.h \
+  mbed-os\connectivity\libraries\nanostack-libservice\mbed-client-libservice\ns_list.h \
+  mbed-os\connectivity\nanostack\coap-service\source\include\coap_message_handler.h \
+  mbed-os\connectivity\libraries\mbed-coap\mbed-coap\sn_coap_protocol.h \
+  mbed-os\connectivity\libraries\mbed-coap\mbed-coap\sn_coap_header.h \
+  mbed-os\connectivity\libraries\mbed-coap\source\include\sn_coap_protocol_internal.h \
+  mbed-os\connectivity\libraries\mbed-coap\source\include\sn_coap_header_internal.h \
+  mbed-os\connectivity\libraries\mbed-coap\mbed-coap\sn_config.h \
+  mbed-os\connectivity\nanostack\sal-stack-nanostack\nanostack\socket_api.h \
+  mbed-os\connectivity\nanostack\sal-stack-nanostack\nanostack\ns_address.h \
+  mbed-os\platform\mbed-trace\include\mbed-trace\ns_trace.h \
+  mbed-os\platform\mbed-trace\include\mbed-trace\mbed_trace.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  mbed-os\platform\randlib\include\mbed-client-randlib\randLIB.h

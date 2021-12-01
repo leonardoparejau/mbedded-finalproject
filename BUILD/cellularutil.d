@@ -1,0 +1,21 @@
+./build/cellularutil.o: \
+  mbed-os\connectivity\cellular\source\framework\common\CellularUtil.cpp \
+  mbed_config.h \
+  mbed-os\connectivity\cellular\include\cellular\framework\common\CellularUtil.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__nullptr \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\inttypes.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  mbed-os\connectivity\netsocket\include\netsocket\nsapi_types.h \
+  mbed-os\platform\include\platform\mbed_toolchain.h \
+  mbed-os\platform\include\platform\mbed_preprocessor.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\rt_sys.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  mbed-os\platform\randlib\include\mbed-client-randlib\randLIB.h
