@@ -22,14 +22,14 @@ The `main()` function is the single thread in the application. It toggles the st
 
 Main Class Functionality:
 
-Listen for the user button rise, in case that happens the method button_isr()is invoked and the operation mode changes.
-Turn off the RGB LED light.
-Enable the RGB Sensor and validate if it is present.
-Initiate the GPS Serial object
-Create a Timer object for future sensor reading
-Establish the GPS Connections
-Start the timer to count.
-While loop functionality:
+1. Listen for the user button rise, in case that happens the method button_isr()is invoked and the operation mode changes.
+1. Turn off the RGB LED light.
+1. Enable the RGB Sensor and validate if it is present.
+1. Initiate the GPS Serial object
+1. Create a Timer object for future sensor reading
+1. Establish the GPS Connections
+1. Start the timer to count.
+1. While loop functionality:
    Check which operation mode is selected by the user(0: test, 1:normal, 2:advanced) and with conditionals turn on a board LED (test mode: LED1, normal mode: LED2 and advanced mode: LED3).
    Query the GPS for synchronizing.
    Check if the timer has reached the refresh time value.
