@@ -30,14 +30,14 @@ Main Class Functionality:
 1. Establish the GPS Connections
 1. Start the timer to count.
 1. While loop functionality:
-1.1.   Check which operation mode is selected by the user(0: test, 1:normal, 2:advanced) and with conditionals turn on a board LED (test mode: LED1, normal mode: LED2 and advanced mode: LED3).
+         1.1.   Check which operation mode is selected by the user(0: test, 1:normal, 2:advanced) and with conditionals turn on a board LED (test mode: LED1, normal mode: LED2 and advanced mode: LED3).
 1.1.   Query the GPS for synchronizing.
 1.1.   Check if the timer has reached the refresh time value.
 1.1.1.     In case that happens, the timer is reset and the methods for reading the sensors are called (read_soil_moisture(); read_light();           read_temp_hum(); read_sensorRGB(); read_accel();)
 1.1.1.      Also the values that the sensors returned are printed with console output.
 1.1.1.      Check if the operation mode is in normal mode
-         In case the system is in normal mode, call the method validateLimits(); to check if any sensor value is out of range and take action on it.
-         Increment by 1 a counter variable (for 1 hour statistics future use).
-         Call the maxMinSum() method for the temperature, humidity, soil moisture and light sensor current values. And update the arrays of Max, Min, and sum.
-         Check if the counter have reach the value of “120”, to show the statistics, the logic for this is the following: 
-         In normal mode the frequency for showing the data is 30 seconds each time the data is shown, the counter will add 1 to its current value, so when the counter reaches 120, that will mean that 3600 seconds(1 hour) have passed. After printing all the statistics, we call the method resetArr() to reset all the Min, Max and Sum values of the sensor.
+1.1.1.1.         In case the system is in normal mode, call the method validateLimits(); to check if any sensor value is out of range and take action on it.
+1.1.1.1.         Increment by 1 a counter variable (for 1 hour statistics future use).
+1.1.1.1.         Call the maxMinSum() method for the temperature, humidity, soil moisture and light sensor current values. And update the arrays of Max, Min, and sum.
+1.1.1.1.         Check if the counter have reach the value of “120”, to show the statistics, the logic for this is the following: 
+1.1.1.1.        In normal mode the frequency for showing the data is 30 seconds each time the data is shown, the counter will add 1 to its current value, so when the counter reaches 120, that will mean that 3600 seconds(1 hour) have passed. After printing all the statistics, we call the method resetArr() to reset all the Min, Max and Sum values of the sensor.
