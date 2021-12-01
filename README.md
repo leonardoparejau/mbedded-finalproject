@@ -1,4 +1,3 @@
-![](./resources/official_armmbed_example_badge.png)
 # MBEDDED SYSTEMS PLAN MONITORING FINAL PROJECT
 
 
